@@ -1,0 +1,756 @@
+<head>
+
+  <meta charset="utf-8" />
+  <meta name="description" content="Default Description" />
+  <meta name="keywords" content="Magento, Varien, E-commerce" />
+  <meta name="robots" content="INDEX,FOLLOW" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="format-detection" content="telephone=no" />
+ 
+  <link
+    rel="stylesheet"
+    type="text/css"
+    media="all"
+    href="sample.css"
+  />
+
+  <link
+    rel="icon"
+    type="image/x-icon"
+    href="https://blueskytechmage.com/complex/media/favicon/stores/4/favicon_1.png"
+  />
+  <link
+    rel="shortcut icon"
+    type="image/x-icon"
+    href="https://blueskytechmage.com/complex/media/favicon/stores/4/favicon_1.png"
+  />
+
+  <style type="text/css">
+    body.eren-page-preloader:before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      position: fixed;
+      z-index: 99999999;
+      background: #fff;
+      transition: opacity 0.5s ease, top 0s linear 0.5s;
+    }
+    body.eren-page-preloader.preloaded:before {
+      top: -100%;
+      opacity: 0;
+    }
+    body.eren-page-preloader:after {
+      content: "";
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      position: fixed;
+      border: 5px solid transparent;
+      left: 50%;
+      margin-top: -40px;
+      margin-left: -40px;
+      animation: aloshop-page-loader 1.1s infinite linear;
+      z-index: 999999999;
+      transition: opacity 0.5s ease, top 0s linear 0.5s;
+      top: 50%;
+    }
+    body.eren-page-preloader.preloaded:after {
+      top: -50%;
+      opacity: 0;
+    }
+    @keyframes aloshop-page-loader {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    body.eren-page-preloader:after {
+      border-left-color: #b11e22;
+    }
+  </style>
+</head>
+
+<body >
+
+
+  <ul class="loader" style="display: none">
+    <li class="center"></li>
+    <li class="item item-1"></li>
+    <li class="item item-2"></li>
+    <li class="item item-3"></li>
+    <li class="item item-4"></li>
+    <li class="item item-5"></li>
+    <li class="item item-6"></li>
+    <li class="item item-7"></li>
+    <li class="item item-8"></li>
+  </ul>
+ 
+
+  <div class="page-wrapper">
+    <div class="block-social on_right hidden-sm hidden-xs">
+      <ul>
+        <li>
+          <a class="facebook" href="#facebook" target="_blank"
+            ><span
+              ><i class="fa fa-facebook">&nbsp;</i
+              ><span class="social-text">Follow via Facebook</span></span
+            ></a
+          >
+        </li>
+        <li>
+          <a class="twitter" href="#twitter.com" target="_blank"
+            ><span
+              ><i class="fa fa-twitter">&nbsp;</i
+              ><span class="social-text">Follow via Twitter</span></span
+            ></a
+          >
+        </li>
+        <li>
+          <a class="google-plus" href="#google-plus" target="_blank"
+            ><span
+              ><i class="fa fa-google-plus">&nbsp;</i
+              ><span class="social-text">Follow via Google +</span></span
+            ></a
+          >
+        </li>
+        <li>
+          <a class="youtube" href="#youtube" target="_blank"
+            ><span
+              ><i class="fa fa-youtube">&nbsp;</i
+              ><span class="social-text">Follow via Youtube</span></span
+            ></a
+          >
+        </li>
+        <li>
+          <a class="pinterest" href="#pinterest" target="_blank"
+            ><span
+              ><i class="fa fa-pinterest">&nbsp;</i
+              ><span class="social-text">Follow via Pinterest</span></span
+            ></a
+          >
+        </li>
+        <li>
+          <a class="mail-to" href="mailto:tokithemes@gmail.com" target="_blank"
+            ><span
+              ><i class="fa fa-envelope-o">&nbsp;</i
+              ><span class="social-text">Mail To Us</span></span
+            ></a
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="header-container">
+      <div class="top-link-container">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 top-bar">
+              <div
+                class="switcher language switcher-language"
+                id="switcher-language"
+              >
+                <strong class="label switcher-label"
+                  ><span>Language</span></strong
+                >
+                <div class="actions dropdown options switcher-options">
+                  <div
+                    class="action toggle switcher-trigger"
+                    id="switcher-language-trigger"
+                  >
+                    <strong class="view-en4">
+                      <span>en4<i class="fa fa-angle-down">&nbsp;</i></span>
+                    </strong>
+                  </div>
+                  <ul class="dropdown switcher-dropdown">
+                    <li class="view-en switcher-option">
+                      <a
+                        href="#"
+                       >
+                        English</a
+                      >
+                    </li>
+                    <li class="view-en2 switcher-option">
+                      <a
+                       >
+                        English2</a
+                      >
+                    </li>
+                    <li class="view-en3 switcher-option">
+                      <a
+                        href="#"
+                       >
+                        English3</a
+                      >
+                    </li>
+                    <li class="view-rtf switcher-option">
+                      <a
+                       >
+                        English4 RTL</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="switcher currency switcher-currency"
+                id="switcher-currency"
+              >
+                <strong class="label switcher-label"
+                  ><span>Currency</span></strong
+                >
+                <div class="actions dropdown options switcher-options">
+                  <div
+                    class="action toggle switcher-trigger"
+                    id="switcher-currency-trigger"
+                  >
+                    <strong class="language-USD">
+                      <span>USD<i class="fa fa-angle-down">&nbsp;</i></span>
+                    </strong>
+                  </div>
+                  <ul class="dropdown switcher-dropdown">
+                    <li class="currency-GBP switcher-option">
+                      <a
+                        href="#"
+                        >
+                    </li>
+                    <li class="currency-EUR switcher-option">
+                      <a
+                        href="#"
+                       >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <span class="txt-welcome"> Wellcome to Complex store! </span>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 end-top-bar">
+              <ul class="top-link">
+                <li>
+                  <a
+                    href=""
+                    >My account</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    >Wishlist</a
+                  >
+                </li>
+                <li>
+                  <a href=""
+                    >My Cart</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    >Checkout</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-12 col-logo">
+              <span data-action="toggle-nav" class="action nav-toggle"
+                ><span>Toggle Nav</span></span
+              >
+              <a
+                class="logo"
+                href="index.html"
+                title="Complex store!"
+                aria-label="store logo"
+              >
+                <img
+                  src="https://blueskytechmage.com/complex/media/logo/stores/4/logo-dark_1.png"
+                  title="Complex store!"
+                  alt="Complex store!"
+                  width="141"
+                  height="91"
+                />
+              </a>
+            </div>
+            <div class="col-md-9 col-sm-9 col-xs-12 col-search">
+              <div data-block="minicart" class="minicart-wrapper">
+                <a
+                  class="action showcart"
+                  href=""
+                  data-bind="scope: 'minicart_content'"
+                >
+                  <span class="icon-cart-header"
+                    ><i class="fa fa-cart-plus">&nbsp;</i></span
+                  >
+                  <span class="text-cart">Your Cart</span>
+                  <span
+                    class="counter qty empty"
+                    data-bind="css: { empty: !!getCartParam('summary_count') == false }, blockLoader: isLoading"
+                  >
+                    <span class="counter-number">
+                      <!-- ko text: getCartParam('summary_count') --><!-- /ko -->
+                    </span>
+                    <span class="counter-label">
+                      <!-- ko if: getCartParam('summary_count') --><!-- /ko -->
+                    </span>
+                  </span>
+                </a>
+
+            
+              </div>
+
+              <div class="smart-search search-by-category">
+                <form
+                  class="form minisearch"
+                  id="search_mini_form"
+                  action=""
+                  method="get"
+                >
+                  <div class="select-category">
+                    <select
+                      name="cat"
+                      id="choose_category"
+                      fdprocessedid="z8w3eb"
+                      style="display: none"
+                    >
+                      <option value="">All Categories</option>
+                      <option value="3">Electronic &amp; Digital</option>
+                      <option value="24">Phones &amp; Accessories</option>
+                      <option value="119">Home &amp; Kitchen</option>
+                      <option value="35">Sport &amp; Outdoors</option>
+                      <option value="120">Health &amp; Beauty</option>
+                      <option value="121">Toys &amp; Hobbies</option>
+                      <option value="122">Book &amp; Office</option>
+                      <option value="123">Cameras &amp; Camcorders</option>
+                      <option value="124">Jewelry &amp; Watches</option>
+                      <option value="125">Fashion &amp; Clothing</option>
+                      <option value="126">Headsets</option>
+                      <option value="127">Stools &amp; benches</option>
+                    </select>
+                    <div
+                      class="chosen-container chosen-container-single"
+                      style="width: 162px"
+                      title=""
+                      id="choose_category_chosen"
+                    >
+                      <a class="chosen-single" tabindex="-1"
+                        ><span>All Categories</span>
+                        <div><b></b></div
+                      ></a>
+                      <div class="chosen-drop">
+                        <div class="chosen-search">
+                          <input
+                            type="text"
+                            autocomplete="off"
+                            fdprocessedid="wfcl2"
+                          />
+                        </div>
+                        <ul class="chosen-results"></ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="smart-search-form">
+                    <input
+                      id="search-input-autocomplate"
+                      type="text"
+                      name="q"
+                      value=""
+                      placeholder="Search here..."
+                      class="input-text"
+                      maxlength="128"
+                      role="combobox"
+                      aria-haspopup="false"
+                      aria-autocomplete="both"
+                      aria-expanded="false"
+                      autocomplete="off"
+                      fdprocessedid="avwd3g"
+                    />
+                  
+                    <button
+                      type="submit"
+                      title="Search"
+                      fdprocessedid="ni8fyk"
+                      disabled=""
+                    >
+                      <span>Search</span>
+                    </button>
+                  </div>
+                </form>
+              </div>
+
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nav-menus">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-12 categories-nav">
+              <div class="sections nav-sections">
+                <div class="section-items nav-sections-items" role="tablist">
+                  <div
+                    class="section-item-title nav-sections-item-title active"
+                    data-role="collapsible"
+                    role="tab"
+                    data-collapsible="true"
+                    aria-controls="menu.vertical"
+                    aria-selected="false"
+                    aria-expanded="true"
+                    tabindex="0"
+                  >
+                    <a
+                      class="nav-sections-item-switch"
+                      data-toggle="switch"
+                      href="#menu.vertical"
+                    ></a>
+                  </div>
+                  <div
+                    class="section-item-content nav-sections-item-content"
+                    id="menu.vertical"
+                    data-role="content"
+                    role="tabpanel"
+                    aria-hidden="false"
+                  >
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-9 col-sm-12 wraper-main-nav">
+              <div class="visible-xs visible-sm icon-menu-bar">
+                <div class="toggle-action">
+                  <div class="menu-line"></div>
+                  <div class="menu-line"></div>
+                  <div class="menu-line"></div>
+                </div>
+              </div>
+              <div>
+                <nav class="main-nav">
+                  <ul>
+                    <li class="ui-menu-item level0">
+                      <a class="level-top" href="#">Home</a>
+                    </li>
+                    <li class="ui-menu-item level0 menu-item-has-children">
+                      <div class="open-children-toggle">&nbsp;</div>
+                      <a class="level-top" href="#">Features</a>
+                      <ul class="sub-menu">
+                        <li class="ui-menu-item menu-item-has-children level1">
+                          <div class="open-children-toggle">&nbsp;</div>
+                          <a>Product Types</a>
+                       
+                        </li>
+                        <li class="ui-menu-item menu-item-has-children level1">
+                          <div class="open-children-toggle">&nbsp;</div>
+                          <a>Product Features</a>
+                         
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="ui-menu-item level0">
+                      <a
+                        class="level-top"
+                        href=""
+                      >
+                        Blog
+                      </a>
+                    </li>
+                    <li class="ui-menu-item level0 menu-item-has-children">
+                      <div class="open-children-toggle">&nbsp;</div>
+                      <a class="level-top"> Pages </a>
+                      <ul class="sub-menu">
+                        <li class="ui-menu-item level1">
+                          <a
+                            href=""
+                          >
+                            Brands
+                          </a>
+                        </li>
+                        <li class="ui-menu-item level1">
+                          <a
+                            href=""
+                          >
+                            Faqs
+                          </a>
+                        </li>
+                        <li class="ui-menu-item level1">
+                          <a
+                            href=""
+                          >
+                            About Us
+                          </a>
+                        </li>
+                        <li class="ui-menu-item level1">
+                          <a
+                            href=""
+                          >
+                            Privacy Policy
+                          </a>
+                        </li>
+                   
+                      </ul>
+                    </li>
+                    <li class="ui-menu-item level0">
+                      <a
+                        class="level-top"
+                        href=""
+                      >
+                        Contact Us
+                      </a>
+                    </li>
+                    <li class="ui-menu-item level0">
+                      <a
+                        class="level-top"
+                        href=""
+                        >Find a Store</a
+                      >
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <div class="nav-banner">
+      <div>
+        <div class="col-banner">
+          <div class="wrapper_slider slider_homepage4slider">
+            <div
+              class="owl owl-carousel owl-theme"
+              style="opacity: 1; display: block"
+            >
+              <div class="owl-wrapper-outer">
+                <div
+                  class="owl-wrapper"
+                  style="
+                    width: 9114px;
+                    left: 0px;
+                    display: block;
+                    transition: all 500ms ease 0s;
+                    transform: translate3d(0px, 0px, 0px);
+                  "
+                >
+                  <div class="owl-item" style="width: 1519px">
+                    <div class="banner_item">
+                      <a href="#"
+                        ><img
+                          alt="Home page4 slider"
+                          src="https://blueskytechmage.com/complex/media/slidebanner/s/l/slider41_1.jpg"
+                      /></a>
+                    </div>
+                  </div>
+                  <div class="owl-item" style="width: 1519px">
+                    <div class="banner_item">
+                      <a href="#"
+                        ><img
+                          alt="Home page4 slider"
+                          src="https://blueskytechmage.com/complex/media/slidebanner/s/l/slider42_1.jpg"
+                      /></a>
+                    </div>
+                  </div>
+                  <div class="owl-item" style="width: 1519px">
+                    <div class="banner_item">
+                      <a href="#"
+                        ><img
+                          alt="Home page4 slider"
+                          src="https://blueskytechmage.com/complex/media/slidebanner/s/l/slider43_1.jpg"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="owl-controls clickable">
+                <div class="owl-pagination">
+                  <div class="owl-page active"><span class=""></span></div>
+                  <div class="owl-page"><span class=""></span></div>
+                  <div class="owl-page"><span class=""></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <script>
+            require(["jquery", "mage/mage", "rokanthemes/owl"], function ($) {
+              "use strict";
+
+              jQuery(".slider_homepage4slider .owl").owlCarousel({
+                autoPlay: true,
+                navigation: false,
+                stopOnHover: true,
+                pagination: true,
+                scrollPerPage: true,
+                items: 1,
+                rewindSpeed: 500,
+                paginationSpeed: 500,
+                slideSpeed: 500,
+                itemsDesktop: [1199, 1],
+                itemsDesktopSmall: [980, 1],
+                itemsTablet: [768, 1],
+              });
+            });
+          </script>
+        </div>
+      </div>
+    </div>
+    <div class="content-top-home">
+      <div class="top-content-home">
+        <div class="banner-top-home hidden-xs">
+          <div class="container">
+            <div class="col-banner-top">
+              <div class="row">
+                <div class="col-xs-12 col-sm-8 col-md-8">
+                  <div class="banner-top banner-top1">
+                    <div class="bs-banner">
+                      <a href="#">
+                        <img
+                          src="https://blueskytechmage.com/complex/media/wysiwyg/home4/banner21.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                  <div class="banner-top banner-top3">
+                    <div class="bs-banner">
+                      <a href="#">
+                        <img
+                          src="https://blueskytechmage.com/complex/media/wysiwyg/home4/banner22.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="banner-top banner-top4">
+                    <div class="bs-banner">
+                      <a href="#">
+                        <img
+                          src="https://blueskytechmage.com/complex/media/wysiwyg/home4/banner23.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-banner-top2">
+              <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-3">
+                  <div class="banner-top banner-top5">
+                    <div class="bs-banner">
+                      <a href="#">
+                        <img
+                          src="https://blueskytechmage.com/complex/media/wysiwyg/home4/banner31.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3">
+                  <div class="banner-top banner-top6">
+                    <div class="bs-banner">
+                      <a href="#">
+                        <img
+                          src="https://blueskytechmage.com/complex/media/wysiwyg/home4/banner32.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                  <div class="banner-top banner-top7">
+                    <div class="bs-banner">
+                      <a href="#">
+                        <img
+                          src="https://blueskytechmage.com/complex/media/wysiwyg/home4/banner33.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <footer class="page-footer">
+    
+      <div class="footer-container">
+        <div class="footer-static-container">
+          <div class="container">
+            <div class="footer-static">
+              <div class="row">
+              
+                <div class="col-sm-3 col-md-2 col-xs-12">
+                  <div class="footer-links">
+                    <h2 class="title">Information</h2>
+                    <ul>
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Careers</a></li>
+                      <li><a href="#">Delivery Inforamtion</a></li>
+                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="#">Terms &amp; Condition</a></li>
+                      <li><a href="#">Sale products</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-3 col-md-2 col-xs-12">
+                  <div class="footer-links">
+                    <h2 class="title">My Account</h2>
+                    <ul>
+                      <li><a href="#">My Account</a></li>
+                      <li><a href="#">Login</a></li>
+                      <li><a href="#">My Cart</a></li>
+                      <li><a href="#">Wishlist</a></li>
+                      <li><a href="#">Checkout</a></li>
+                      <li><a href="#">Userinfor</a></li>
+                    </ul>
+                  </div>
+                </div>
+             
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="footer-bottom-inner">
+              <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                  <small class="copyright">
+                    <span
+                      >Copyright © 2021 
+                      Reserved.</span
+                    >
+                  </small>
+                </div>
+            
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="back-top" class="hidden-xs"><i class="fa fa-angle-up"></i></div>
+   
+    </footer>
+
+    </div>
+  </div>
+
+
+</body>
